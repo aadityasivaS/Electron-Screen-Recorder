@@ -1,6 +1,6 @@
 {
   "name": "screen-recorder",
-  "productName": "screen-recorder",
+  "productName": "Screen Recorder",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": "src/index.js",
@@ -12,10 +12,7 @@
     "lint": "echo \"No linting configured\""
   },
   "keywords": [],
-  "author": {
-    "name": "Aadityasiva",
-    "email": "67770098+aadityasivaS@users.noreply.github.com"
-  },
+  "author": "jeffd23",
   "license": "MIT",
   "config": {
     "forge": {
@@ -24,7 +21,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "screen_recorder"
+            "name": "tron_forge"
           }
         },
         {
@@ -48,11 +45,12 @@
     "electron-squirrel-startup": "^1.0.0"
   },
   "devDependencies": {
-    "@electron-forge/cli": "^6.0.0-beta.54",
-    "@electron-forge/maker-deb": "^6.0.0-beta.54",
-    "@electron-forge/maker-rpm": "^6.0.0-beta.54",
-    "@electron-forge/maker-squirrel": "^6.0.0-beta.54",
-    "@electron-forge/maker-zip": "^6.0.0-beta.54",
-    "electron": "10.1.5"
+    "@electron-forge/cli": "^6.0.0-beta.50",
+    "@electron-forge/maker-deb": "^6.0.0-beta.50",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.50",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.50",
+    "@electron-forge/maker-zip": "^6.0.0-beta.50",
+    "devtron": "^1.4.0",
+    "electron": "8.0.2"
   }
 }
